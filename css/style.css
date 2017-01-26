@@ -5,3 +5,17 @@ body {
   font-weight: bold;
   font-family: PT Sans Narrow, serif;
 }
+h3 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: inherit;
+  color: #f7f4f1;
+  font-family: inherit;
+}
+h2 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: inherit;
+  color: #000000;
+  font-family: inherit;
+}
