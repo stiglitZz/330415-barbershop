@@ -6,8 +6,8 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="main-header">
+      <div class="container clearfix">
         <nav class="main-navigation">
           <ul>
             <li>
@@ -26,12 +26,13 @@
               <a href="#">Контакты</a>
             </li>
           </ul>
-          <div class="user-block">
-            <a class="login" href="#">Вход</a>
-          </div>
         </nav>
+        <div class="user-block">
+            <a class="login" href="#">Вход</a>
+        </div>        
       </div>
     </header>
+          
 
     <main>
       <div class="container">
@@ -39,7 +40,7 @@
           <img src="img/index_logo.png" width="368" height="204"
           alt="Барбершоп">
         </div>
-        <section class="features">
+        <section class="features clearfix">
           <div class="features-item">
             <h3 class="feature-name">Быстро</h3>
             <p>
@@ -57,12 +58,12 @@
           <div class="features-item">
             <h3 class="feature-name">Дорого</h3>
             <p>
-            Наши МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ
+            НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ
             ДЕШЕВО.К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
             </p>
           </div>
         </section>
-        <div class="index-content">
+        <div class="index-content clearfix">
           <div class="index-content-left">
             <h2 class="index-title-cont">Новости</h2>
             <ul class="news-preview">
@@ -80,6 +81,9 @@
             </ul>
             <a class="btn" href="#">Все новости</a>
           </div>
+          <!--<div class="demarc-line">
+            <img src="img/index_demarc_line.png" width="8" height="278" alt="demarcline">
+          </div> -->
           <div class="index-content-right">
             <h2 class="index-title-cont">Фотогалерея</h2>
             <div class="gallery">
@@ -96,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="index-content">
+        <div class="index-content clearfix">
           <div class="index-content-left">
             <h2 class="index-title-cont">Контактная информация</h2>
             <p>
@@ -112,6 +116,9 @@
             <a class="btn" href="#">Как проехать</a>
             <a class="btn" href="#"> Обратная связь</a>
           </div>
+          <!--<div class="demarc-line">
+            <img src="img/index_demarc_line.png" width="8" height="278" alt="demarcline">
+          </div> -->          
 
           <div class="index-content-right">
 
@@ -122,10 +129,8 @@
               action="https://echo.htmlacademy.ru"
               method="post">
               <fieldset class="field-appoint">
-                <input type="date" name="date" value=""
-                placeholder="Дата" >
-                <input type="time" name="time" value=""
-                placeholder="Время" >
+                <input type="date" name="date" value="">
+                <input type="time" name="time" value="">
                 <input type="text" name="name" value=""
                 placeholder="Ваше имя">
                 <input type="tel" name="phone" value=""
@@ -138,18 +143,18 @@
       </div>
     </main>
 
-    <footer>
+    <footer class="main-footer">
 
       <div class="container">
         <section class="footer-contacts">
-          <p>
+          
             БАРБЕРШОП «БОРОДИНСКИЙ»<br>
             <address>
               АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
             </address><br>
             <strong>КАК НАС НАЙТИ?</strong><br>
             ТЕЛЕФОН: <a href="tel:+74956660266">+7 (495) 666-02-66</a>
-          </p>
+          
         </section>
 
         <section class="footer-social">
