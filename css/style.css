@@ -1,21 +1,23 @@
 body {
   font-size: 14px;
   line-height: 24px;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
   font-family: PT Sans Narrow, serif;
+  background: #969696;
 }
-h3 {
+.feature-name {
   font-size: 30px;
   line-height: 42px;
-  font-weight: inherit;
   color: #f7f4f1;
-  font-family: inherit;
+
 }
-h2 {
+.features-item p {
+  color: #f7f4f1;
+
+}
+.index-title-cont {
   font-size: 30px;
   line-height: 42px;
-  font-weight: inherit;
-  color: #000000;
-  font-family: inherit;
+
 }
