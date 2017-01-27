@@ -1,4 +1,6 @@
 body {
+  min-width: 1122px;
+  min-height: 1750px;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -19,6 +21,92 @@ body {
 .index-title-cont {
   font-size: 30px;
   line-height: 42px;
+}
+/////////////////////////////////
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
 
+}
+
+.main-navigation {
+  float: left;
+  width: 780px;
+  min-height: 70px;
+}
+.user-block {
+  float: right;
+  width: 140px;
+  min-height: 70px;
+}
+
+.main-header {
+  margin-bottom: 60px;
+}
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+.features {
+  margin-bottom: 80px;
+}
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 175px;
+  margin-right: 20px;
+}
+.features-item:nth-child(3) {
+  margin-right: 0;
+}
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+  
+}
+
+.index-content-left {
+  width: 380px;
+  min-height: 330px;
+  float: left;
+}
+.index-content-right {
+  width: 300px;
+  float: right;
+  min-height: 330px;
+  
+}
+/*.gallery-content {
+  margin-left: 0;
+}*/
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.footer-contacts {
+  width: 310px;
+  min-height: 90px;
+  float: left;
+  margin-right: 60px;
+}
+.footer-social {
+  width: 180px;
+  min-height: 90px;
+  float: left;
+}
+.footer-copyright {
+  width: 180px;
+  min-height: 90px;
+  float: right;
 }
