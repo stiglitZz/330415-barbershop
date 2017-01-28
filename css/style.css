@@ -1,6 +1,6 @@
 body {
   min-width: 1122px;
-  min-height: 1750px;
+  min-height: 1170px;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
@@ -22,8 +22,8 @@ body {
   font-size: 30px;
   line-height: 42px;
 }
-/////////////////////////////////
 
+/*//////////////index grid*/ 
 .clearfix::after {
   content: "";
   display: table;
@@ -86,9 +86,7 @@ body {
   min-height: 330px;
   
 }
-/*.gallery-content {
-  margin-left: 0;
-}*/
+
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
@@ -109,4 +107,102 @@ body {
   width: 180px;
   min-height: 90px;
   float: right;
+}
+/* ////////////////////*/
+.catalog-logo,
+.item-logo {
+  width: 111px;
+  height: 24px;
+}
+.catalog-navigation,
+.item-navigation {
+  width: 650px;
+  float: left;
+}
+.breadcrumbs-catalog {
+  width: 300px;
+  min-height: 70px;
+  margin-bottom: 60px;
+}
+.content-filters {
+  width: 180px;
+  min-height: 570px;
+  float: left;
+}
+.catalog-content-goods {
+  width: 710px;
+  min-height: 595px;
+  float: right;
+}
+  
+  
+
+.article-product {
+  vertical-align: top;
+  display: inline-block;
+  width: 220px;
+  min-height: 290px;
+  margin-right: 20px;
+}
+.article-product:nth-child(3n) {
+  margin-right: 0;
+}
+.paginator {
+  margin-top: 60px;
+}
+.paginator li,
+.catalog-navigation li,
+.breadcrumbs-catalog li,
+.main-navigation li,
+.item-navigation li,
+.breadcrumbs-item li
+ {
+  display: inline-block;
+}
+fieldset {
+  min-height: 220px;
+}
+label {
+  display: list-item;
+  list-style: none;
+}
+ /*//////////////////*/
+
+.breadcrumbs-item {
+  width: 640px;
+  min-height: 80px;
+  margin-bottom: 60px;
+}
+.item-content-photos {
+  width: 486px;
+  min-height: 680px;
+  float: left;
+}
+.main-photo {
+  width: 486px;
+  height: 524px;
+  margin-bottom: 20px;
+}
+.item-photos {
+  width: 486px;
+  
+}
+.other-photos {
+  
+  width: 486px;
+  font-size: 0;
+}
+.photo {
+  display: inline-block;
+  width: 160px;
+  height: 175px;
+}
+.item-content-description {
+  width: 420px;
+  min-height: 680px;
+  float: right;
+  margin-right: 10px;
+}
+.item-content {
+  margin-bottom: 35px;
 }

@@ -6,9 +6,9 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="main-navigation">
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="catalog-navigation">
           <div class="catalog-logo">
             <a class="logo" href="#">
               <img src="img/catalog_logo.png" width="111" height="24"
@@ -32,17 +32,18 @@
               <a href="#">Контакты</a>
             </li>
           </ul>
-          <div class="user-block">
-            <a href="#">Вход</a>
-          </div>
+          
         </nav>
+        <div class="user-block">
+          <a href="#">Вход</a>
+        </div>        
       </div>
     </header>
     <main>
 
-      <div class="container">
-        <div class="catalog-content">
-          <nav class="breadcrumbs">
+      <div class="container clearfix">
+        <div class="catalog-content clearfix">
+          <nav class="breadcrumbs-catalog">
             <h1 class="title-catalog">Средства для ухода</h1>
             <ul>
               <li>
@@ -65,33 +66,33 @@
             <fieldset class="field-fabricator">
               <label>
                 <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="baxter">
-                <span>Baxter of California</span>
+                name="fabricator" value="baxter"><span>Baxter of California</span>
+              </label>
+                
+              <label>
+                <input class="radio-fabricator" type="checkbox"
+                name="fabricator" value="natty"><span>Mr Natty</span>
+                
               </label>
               <label>
                 <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="natty">
-                <span>Mr Natty</span>
+                name="fabricator" value="suavecito"><span>Suavecito</span>
+                
               </label>
               <label>
                 <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="suavecito">
-                <span>Suavecito</span>
+                name="fabricator" value="malin+gaetz"><span>Malin+Goetz</span>
+                
               </label>
               <label>
                 <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="malin+gaetz">
-                <span>Malin+Goetz</span>
+                name="fabricator" value="murray"><span>Murray's</span>
+                
               </label>
               <label>
                 <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="murray">
-                <span>Murray's</span>
-              </label>
-              <label>
-                <input class="radio-fabricator" type="checkbox"
-                name="fabricator" value="american">
-                <span>American Crew</span>
+                name="fabricator" value="american"><span>American Crew</span>
+                
               </label>
             </fieldset>
 
@@ -163,7 +164,7 @@
             </div>
             <h2 class="title-product">
               <a href="#">  
-                Гель для «SUAVECITO»
+                Гель для <br>«SUAVECITO»
               </a>
             </h2>
             <div class="price-box">
@@ -172,7 +173,7 @@
             <a class="btn-buy" href="#">Купить</a>
           </article>
 
-          <article class="article-goods">
+          <article class="article-product">
             <div class="image-product">
               <img src="img/catalog_item_img4.jpg" width="220" height="165"
               alt="Глина для укладки">
@@ -188,7 +189,7 @@
             <a class="btn-buy" href="#">Купить</a>
           </article>
 
-          <article class="article-goods">
+          <article class="article-product">
             <div class="image-product">
               <img src="img/catalog_item_img5.jpg" width="220" height="165"
               alt="Гель для волос «AMERICAN CREW»">
@@ -204,7 +205,7 @@
             <a class="btn-buy" href="#">Купить</a>
           </article>
 
-          <article class="article-goods">
+          <article class="article-product">
             <div class="image-product">
               <img src="img/catalog_item_img6.jpg" width="220" height="165"
               alt="Набор для «Baxter of California»">
@@ -219,30 +220,31 @@
             </div>
             <a class="btn-buy" href="#">Купить</a>
           </article>
+          <nav class="paginator">
+            <ul>
+              <li>
+                <a class="btn-paginator" href="#">1</a>
+              </li>
+              <li>
+                <a class="btn-paginator" href="#">2</a>
+              </li>
+              <li>
+                <a class="btn-paginator" href="#">3</a>
+              </li>
+              <li>
+                <a class="btn-paginator" href="#">4</a>
+              </li>
+            </ul>
+        </nav>          
         </div>
 
-        <nav class="paginator">
-          <ul>
-            <li>
-              <a class="btn-paginator" href="#">1</a>
-            </li>
-            <li>
-              <a class="btn-paginator" href="#">2</a>
-            </li>
-            <li>
-              <a class="btn-paginator" href="#">3</a>
-            </li>
-            <li>
-              <a class="btn-paginator" href="#">4</a>
-            </li>
-          </ul>
-        </nav>
+        
       </div>
     </div>
   </main>
 
-  <footer>
-    <div class="container">
+  <footer class="main-footer">
+    <div class="container clearfix">
 
       <section class="footer-contacts">
         

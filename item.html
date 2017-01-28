@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title> набор для путешествий «Baxter of California» </title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="container">
+    <header class="main-header">
+      <div class="container clearfix">
         <div class="item-logo">
-          <img src="https://dummyimage.com/110x25" width="110" height="25"
-          alt="logo">
+          <img src="img/catalog_logo.png" width="111" height="24"
+              alt="logo">
         </div>
-        <nav class="main-navigation">
+        <nav class="item-navigation">
           <ul>
             <li>
               <a href="#">Инфо</a>
@@ -29,18 +30,19 @@
               <a href="#">Контакты</a>
             </li>
           </ul>
-          <div class="user-block">
-            <a href="#">Вход</a>
-          </div>
+          
         </nav>
+        <div class="user-block">
+          <a href="#">Вход</a>
+        </div>        
       </div>
     </header>
     <main>
       <div class="container">
 
 
-        <div class="item-content">
-          <nav class="breadcrumbs">
+        <div class="item-content clearfix">
+          <nav class="breadcrumbs-item">
             <h1 class="title-item">набор для путешествий «Baxter of California»</h1>
             <ul>
               <li>
@@ -58,24 +60,30 @@
             </ul>
           </nav>
 
-          <div class="item-content-left">
+          <div class="item-content-photos">
             <div class="item-photos">
-              <figure class="main-photo">
-                <img src="https://dummyimage.com/460x500" width="460" height="500"
+              <div class="main-photo">
+                <img src="img/item_main_photo.png" width="486" height="524"
                 alt="main-photo">
-              </figure>
-              <figure class="other-photos">
-                <img src="https://dummyimage/140x150" width="140" height="150"
-                alt="other-photos">
-                <img src="https://dummyimage/140x150" width="140" height="150"
-                alt="other-photos">
-                <img src="https://dummyimage/140x150" width="140" height="150"
-                alt="other-photos">
-              </figure>
+              </div>
+              <div class="other-photos">
+                <div class="photo">  
+                  <img src="img/item_other_photo1.png" width="166" height="175"
+                  alt="other-photos">
+                </div>
+                <div class="photo">  
+                  <img src="img/item_other_photo2.png" width="166" height="175"
+                  alt="other-photos">
+                </div>
+                <div class="photo">
+                  <img src="img/item_other_photo3.png" width="166" height="175"
+                  alt="other-photos">
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="item-content-right">
+          <div class="item-content-description">
             <section class="item-description">
               <strong>Есть в наличии</strong>
               <b class="vendor-code">Артикул: DEXTER-AE</b>
