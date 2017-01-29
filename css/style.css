@@ -14,8 +14,7 @@
   
 }
 body {
-  min-width: 1122px;
-  min-height: 1170px;
+  margin: 0;
   font-size: 14px;
   line-height: 1;
   color: #000000;
