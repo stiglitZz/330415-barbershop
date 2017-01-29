@@ -1,17 +1,28 @@
 @font-face {
-  font-family: PT Sans Narrow;
-  src: url(fonts/PTC55F.ttf);
-  src: url(fonts/PTC75F.ttf);
-  src: url(fonts/PTN57F.ttf);
-  src: url(fonts/PTN77F.ttf);
-  src: url(fonts/PTS55F.ttf);
-  src: url(fonts/PTS56F.ttf);
-  src: url(fonts/PTS75F.ttf);
-  src: url(fonts/PTS76F.ttf);
+  font-family: "PTSansNarrow";
+  src: url("../fonts/PTSansNarrow.ttf");
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
-
-  
+}
+/* написал в вк вопрос по поводу src:local  // и не совсем понял
+ про базовые стили , это что конкретно?*/ 
+@font-face {
+  font-family: "PTSansNarrow";
+  src: url("../fonts/PTSansItalic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "PTSansNarrow";
+  src: url("../fonts/PTSansNarrowBold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PTSansNarrow";
+  src: url("../fonts/PTSansBoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
 }
 body {
   margin: 0;
@@ -19,7 +30,7 @@ body {
   line-height: 1;
   color: #000000;
   font-weight: bold;
-  font-family: PT Sans Narrow, serif;
+  font-family: "PTSansNarrow", serif;
   font-style: normal;
   background: #969696;
 
@@ -39,7 +50,7 @@ body {
   line-height: 1.5;
 }
 
-/*//////////////index grid*/ 
+/*//////////////*/ 
 .clearfix::after {
   content: "";
   display: table;
