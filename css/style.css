@@ -1,16 +1,33 @@
+@font-face {
+  font-family: PT Sans Narrow;
+  src: url(fonts/PTC55F.ttf);
+  src: url(fonts/PTC75F.ttf);
+  src: url(fonts/PTN57F.ttf);
+  src: url(fonts/PTN77F.ttf);
+  src: url(fonts/PTS55F.ttf);
+  src: url(fonts/PTS56F.ttf);
+  src: url(fonts/PTS75F.ttf);
+  src: url(fonts/PTS76F.ttf);
+  font-style: normal;
+  font-weight: normal;
+
+  
+}
 body {
   min-width: 1122px;
   min-height: 1170px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1;
   color: #000000;
   font-weight: bold;
   font-family: PT Sans Narrow, serif;
+  font-style: normal;
   background: #969696;
+
 }
 .feature-name {
   font-size: 30px;
-  line-height: 42px;
+  line-height: 1.5;
   color: #f7f4f1;
 
 }
@@ -20,7 +37,7 @@ body {
 }
 .index-title-cont {
   font-size: 30px;
-  line-height: 42px;
+  line-height: 1.5;
 }
 
 /*//////////////index grid*/ 
